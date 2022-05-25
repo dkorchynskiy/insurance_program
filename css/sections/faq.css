@@ -31,6 +31,10 @@
   background-color: var(--dark-blue);
 }
 
+.faq-list__title {
+  width: 100%;
+}
+
 .faq-list__question::before {
   content: "";
   width: 34px;

@@ -34,6 +34,17 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
 }
 
+.section-subtitle {
+  max-width: 500px;
+  margin: 30px auto 45px;
+  padding: 0 5px;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: var(--black);
+}
+
 .section-title--white {
   color: var(--white);
 }

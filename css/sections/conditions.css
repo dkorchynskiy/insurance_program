@@ -1,0 +1,42 @@
+.conditions {
+  padding: 50px 0;
+}
+
+.conditions-list {
+}
+
+.conditions__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13vw;
+}
+
+.conditions__item {
+  margin-top: 80px;
+}
+
+.conditions__content {
+  max-width: 370px;
+  padding: 0 5px;
+}
+
+.conditions__subtitle {
+  font-size: 64px;
+  line-height: 75px;
+
+  color: var(--black);
+}
+
+.conditions__text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: var(--black);
+}
+
+.conditions__text--light {
+  font-style: italic;
+  font-weight: 100;
+}
