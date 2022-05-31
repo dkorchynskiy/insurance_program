@@ -1,0 +1,121 @@
+.footer-bg {
+  background-color: var(--dark-blue);
+}
+
+.footer-wrapper {
+  padding: 80px 0 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+
+  /* grid-template-columns: repeat(4, 1fr); */
+  column-gap: 30px;
+  justify-content: space-between;
+}
+
+.footer-columns {
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.footer-list__item {
+  border-bottom: 1px solid transparent;
+  transition: 0.5s border-bottom;
+}
+
+.footer-list__link {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none;
+
+  color: var(--white);
+
+  transition: 0.5s color;
+}
+
+.footer-list__item:hover {
+  border-bottom: 1px solid var(--light-sand);
+}
+
+.footer-list__item:hover .footer-list__link {
+  color: var(--light-sand);
+}
+
+.footer-columns__text {
+  font-size: 18px;
+  line-height: 27px;
+
+  color: var(--white);
+}
+
+.footer__btn {
+  box-sizing: border-box;
+
+  margin-top: 30px;
+  padding: 20px;
+  width: 266px;
+
+  display: inline-block;
+
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--black);
+  text-decoration: none;
+
+  background-color: var(--white);
+
+  border-radius: 10px;
+  border: 1px solid var(--dark-blue);
+  box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.1);
+}
+
+.footer__contacts--phone {
+  margin-bottom: 20px;
+
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+
+  display: inline-block;
+
+  color: var(--white);
+}
+
+.footer__contacts--email {
+  display: inline-block;
+
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 27px;
+  font-style: italic;
+
+  color: var(--white);
+}
+
+.footer-columns__info {
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.footer__copyright-bg {
+  border: 1px solid var(--grey);
+  background-color: var(--dark-blue);
+}
+.footer__copyright {
+  padding: 20px 0 25px;
+
+  font-size: 14px;
+  line-height: 16px;
+
+  color: var(--grey);
+}
